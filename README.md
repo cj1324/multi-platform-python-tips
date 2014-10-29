@@ -7,8 +7,6 @@
 + 什么语言能跨平台
 + 什么语言不能跨平台
 + 你使用那种Python (PyPy IronPython,Jython)
-+ Compatibility Tags for Built Distributions (425)
-+ Pure Python/C Accelerator Module Compatibility Requirements (PEP 399)
 + Removing support for little used platforms (PEP 11)
 
 路径和编码
@@ -32,18 +30,19 @@
 --------
 
 + Python Virtual Environments (PEP 405)
-+ 如何import
++ 如何导入模块
+  + 影响py2exe打包
   + Imports: Multi-Line and Absolute/Relative (PEP 328)
   + Import on Case-Insensitive Platforms (PEP 235)
 + 标准库
   + 不都跨平台
-  + 说了不算
+  + 说了不算(sqlite3)
   + 弃用 PEP 4
-+ 第三方依赖质量
-
-+ C/C++扩展模块
-  + PEP 427
-  + 兼容要求 PEP 399
++ 第三方依赖模块的质量
++ C/C++扩展
+  + The Wheel Binary Package Format 1.0 (PEP 427)
+  + Compatibility Tags for Built Distributions (PEP 425)
+  + Pure Python/C Accelerator Module Compatibility Requirements (PEP 399)
   + 32bit or 64bit
 + subprocess - New process module (PEP 324)
 
